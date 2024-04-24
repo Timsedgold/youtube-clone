@@ -1,0 +1,122 @@
+.home-flexbox {
+  display: flex;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.home-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.number-button {
+  background-color: rgb(12, 139, 236);
+  color: white;
+  border: none;
+  padding: 6px 12px 6px 12px;
+  border-radius: 15px;
+}
+
+.design-flexbox {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(101, 85, 178);
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.home {
+  width: 75px;
+  margin-left: 15px;
+  color: white;
+}
+
+.search-bar {
+  width: 500px;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  border: none;
+  color: grey;
+}
+
+.download-button {
+  padding: 8px 10px 8px 10px;
+  margin-right: 8px;
+  background-color: rgb(101, 85, 178);
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+.name-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+.image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  width: 60px;
+  margin-right: 18px;
+}
+
+.info {
+  width: 200px;
+}
+
+.follow-button {
+ background-color: rgb(12, 139, 236);
+ color: white;
+ padding: 8px 15px 8px 15px;
+ border: none;
+ border-radius: 6px;
+ font-size: 16px;
+}
+
+.cat {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: gray;
+  font-size: 20px;
+}
+
+.popular {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: gray;
+  font-size: 16px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 4px;
+}

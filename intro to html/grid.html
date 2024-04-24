@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid practice</title>
+    <link rel="stylesheet" href="grid.css">
+  </head>
+  <body>
+   
+   <div style="display: grid;      grid-template-columns: 200px 75px; margin-bottom: 20px;">
+        <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div style="display: grid;      grid-template-columns: 50px 1fr 75px; margin-bottom: 30px;">
+      <div style="background-color: lightblue;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightblue;">col3</div>
+   </div>
+   
+   <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 20px; row-gap: 10px; margin-bottom: 100px;">
+    <div style="background-color: lightpink;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightpink;">col3</div>
+    <div style="background-color: lightpink;">col4</div>
+
+    <div style="background-color: lightpink;">col1</div>
+    <div style="background-color: lightpink;">col2</div>
+    <div style="background-color: lightpink;">col3</div>
+    <div style="background-color: lightpink;">col4</div>
+    </div>   
+
+    <div class="card-grid">
+      <div class="card-shadow">
+        <div>
+          <img class="image" src="cat1.jpg" alt="">
+        </div>
+
+        <div>
+          <p class="name">Oliver</p>
+        </div>
+
+        <div class="dog-grid">
+          <div>
+            <img class="dog" src="dog2.jpg" alt="">
+          </div>
+          <div>
+            <p class="mutual">2 mutual friends</p>
+          </div>
+        </div>
+
+        <div>
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+      </div>
+
+      <div  class="card-shadow">
+        <div>
+          <img class="image" src="cat2.jpg" alt="">
+        </div>
+
+        <div>
+          <p class="name">Mimi</p>
+        </div>
+
+        <div class="dog-grid">
+          <div>
+            <img class="dog" src="dog2.jpg" alt="">
+          </div>
+          <div>
+            <p class="mutual">3 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+      </div>
+
+      <div  class="card-shadow">
+        <div>
+          <img class="image" src="cat3.jpg" alt="">
+        </div>
+
+        <div>
+          <p class="name">Rex</p>
+        </div>
+
+        <div class="dog-grid">
+          <div>
+            <img class="dog" src="dog2.jpg" alt="">
+          </div>
+          <div>
+            <p class="mutual">4 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+
+.tahoma-font {
+  font-family: tahoma;
+  font-size: 24px;
+}
+
+.deals {
+  font-family: Arial;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.sales {
+  font-family: Arial;
+  color: rgb(241, 116, 116);
+  font-size: 12px;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.html {
+  font-family: Verdana;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.beginner {
+  font-family: verdana;
+  font-size: 18px;
+  margin-top: 0;
+  color: grey;
+  margin-bottom: 14px;
+}
+
+.skills {
+  font-family: verdana;
+  font-size: 18px;
+  width: 320px;
+  margin-top: 0;
+}
+
+.get-started-button {
+  background-color: rgb(11, 135, 11);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.shopping {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.apple {
+  font-size: 18px;
+  font-family: Arial;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.learn-more {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(48, 136, 237)
+}
+
+.five-e {
+  font-family: Arial;
+  text-align: center;
+}
+
+.new {
+  color: orange;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.pro {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  
+}
+
+.supercharged {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.price {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.buy {
+  background-color: rgb(64, 138, 234);
+  color: white;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 0;
+}
+
+.five-f {
+  font-family: Arial;
+}
+
+.thousand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.USD {
+  color: grey;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.today {
+  color: rgb(12, 108, 12);
+}
+
+.after-hours {
+  color: grey;
+}
+
+.fifteen {
+  color: red;
+}
+
+.five-g {
+  font-family: Arial;
+}
+
+.free-code {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.camp {
+  color: grey;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.web-developer {
+  margin-top: 0;
+  font-size: 18px;
+  width: 640px;
+  line-height: 24px;
+}
+
+.skills {
+  font-size: 18px;
+  width: 620px;
+}
+
+.chp-it {
+  color: rgb(64, 138, 234);
+}

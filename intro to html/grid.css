@@ -1,0 +1,61 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  column-gap: 20px;
+}
+
+.card-shadow {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.dog-grid {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.dog {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 0;
+}
+
+.mutual {
+  margin-top: 0;
+  color: gray;
+  margin-left: 8px;
+  padding-top: 6px;
+}
+
+
+.name {
+  margin-top: 0;
+ margin-bottom: 8px;
+ margin-left:8px;
+ font-size: 18px;
+ font-weight: 700;
+}
+
+.add-friend-button {
+  background-color: rgb(53, 94, 228);
+  color: white;
+  border: none;
+  padding: 10px 14px 10px 14px;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  border-radius: 4px;
+}
